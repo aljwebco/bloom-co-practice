@@ -1,13 +1,13 @@
-
 {
   "businessName": "Bloom & Co.",
-  "heroTitle": "Fresh Flowers Made Just for You",
-  "heroDescription": "Fresh flowers, thoughtfully arranged.",
+  "heroTitle": "beautiful Flowers for Every Special Moment",
+  "heroDescription": "Handcrafted floral arrangements made with love for every occasion.",
   "aboutText": "Welcome to Bloom & Co., your local flower shop. We create beautiful arrangements for life's special moments.",
   "services": [
     "Custom Bouquets",
     "Wedding Flowers",
-    "Special Events"
+    "Special Events",
+    "Flower Delivery"
   ],
   "email": "hello@bloomco.example",
   "phone": "(555) 010-1234",
