@@ -1,0 +1,134 @@
+
+/* General Website Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf5;
+    color: #3d4035;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #e8ede1;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    color: #52664b;
+    margin-bottom: 15px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #52664b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* All Sections */
+section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    color: #52664b;
+    margin-bottom: 20px;
+}
+
+section p {
+    max-width: 650px;
+    margin: 10px auto;
+}
+
+/* Home Section */
+#home {
+    background-color: #f3e4df;
+    padding: 110px 20px;
+}
+
+#home h2 {
+    font-size: 42px;
+}
+
+#home a {
+    display: inline-block;
+    background-color: #52664b;
+    color: white;
+    padding: 12px 30px;
+    margin-top: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#home a:hover {
+    background-color: #394b34;
+}
+
+/* About Section */
+#about {
+    background-color: #fffaf5;
+}
+
+/* Services Section */
+#services {
+    background-color: #e8ede1;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fffaf5;
+}
+
+/* Footer */
+footer {
+    background-color: #52664b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    #home h2 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 50px 15px;
+    }
+}
